@@ -13,5 +13,5 @@ config_file: |
 
 files:
 - filename: "DreamShaper_8_pruned.safetensors"
-  sha256: "879db523c30d3b9017143d56705015e15a2cb5628762c11d086fed9538abd7fd"
+  sha256: "9ed26d6247a81898595ad3378ed42fd9bcd3570c6a64e12ec9a18068ebb8913c"
   uri: "https://huggingface.co/Lykon/DreamShaper/raw/main/DreamShaper_8_pruned.safetensors"
