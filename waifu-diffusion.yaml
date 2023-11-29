@@ -18,5 +18,5 @@ config_file: |
 
 files:
 - filename: "Waifu-diffusion.safetensors"
-  sha256: "dda5a15fe85e6ea7fe0e21d06264611246ab60bdbf7001daa1e48028a49cd2e3"
+  sha256: "7b5cdd1c15f025166ded673f898e09e621c9ff828d6508a81e83378a6d0ba8dd"
   uri: "https://huggingface.co/hakurei/waifu-diffusion/resolve/main/unet/diffusion_pytorch_model.fp16.safetensors"
