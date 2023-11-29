@@ -1,0 +1,17 @@
+name: "stablediffusion"
+license: "Other"
+urls:
+- https://huggingface.co/Lykon/DreamShaper
+
+description: |
+     Lykon DreamShaper 8
+config_file: |
+  name: dreamshaper
+  backend: stablediffusion
+  parameters:
+    model: DreamShaper_8_pruned.safetensors
+
+files:
+- filename: "DreamShaper_8_pruned.safetensors"
+  sha256: "879db523c30d3b9017143d56705015e15a2cb5628762c11d086fed9538abd7fd"
+  uri: "https://huggingface.co/Lykon/DreamShaper/raw/main/DreamShaper_8_pruned.safetensors"
