@@ -2,3 +2,6 @@
 - url: "github:Bored0ne/model-gallery/dreamshaper.yaml"
   name: "dreamshaper"
   license: other
+- url: "github:Bored0ne/model-gallery/waifu-diffusion.yaml"
+  name: "waifu-diffusion"
+  license: other
