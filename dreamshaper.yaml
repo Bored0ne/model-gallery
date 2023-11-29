@@ -7,9 +7,15 @@ description: |
      Lykon DreamShaper 8
 config_file: |
   name: dreamshaper
-  backend: stablediffusion
   parameters:
     model: DreamShaper_8_pruned.safetensors
+  backend: diffusers
+  # Force CPU usage - set to true for GPU
+  f16: false
+  diffusers:
+    pipeline_type: StableDiffusionPipeline
+    cuda: false # Enable for GPU usage (CUDA)
+    scheduler_type: euler_a
 
 files:
 - filename: "DreamShaper_8_pruned.safetensors"
