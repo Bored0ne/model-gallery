@@ -1,0 +1,23 @@
+name: "waifu-diffusion"
+license: "Other"
+urls:
+- https://huggingface.co/hakurei/waifu-diffusion
+
+description: |
+     Waifu diffusion 1.4
+config_file: |
+  name: waifu-diffusion
+  parameters:
+    model: Waifu-diffusion.safetensors
+  backend: diffusers
+  # Force CPU usage - set to true for GPU
+  f16: false
+  diffusers:
+    pipeline_type: StableDiffusionPipeline
+    cuda: false # Enable for GPU usage (CUDA)
+    scheduler_type: euler_a
+
+files:
+- filename: "Waifu-diffusion.safetensors"
+  sha256: "dda5a15fe85e6ea7fe0e21d06264611246ab60bdbf7001daa1e48028a49cd2e3"
+  uri: "https://huggingface.co/hakurei/waifu-diffusion/resolve/main/unet/diffusion_pytorch_model.safetensors"
