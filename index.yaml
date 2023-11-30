@@ -1,7 +1,10 @@
-## Whisper
+## diffusers
 - url: "github:Bored0ne/model-gallery/dreamshaper.yaml"
   name: "dreamshaper"
   license: other
 - url: "github:Bored0ne/model-gallery/waifu-diffusion.yaml"
   name: "waifu-diffusion"
+  license: other
+- url: "github:Bored0ne/model-gallery/animagine-xl.yaml"
+  name: "animagine-xl"
   license: other
